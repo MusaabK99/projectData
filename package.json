@@ -1,19 +1,22 @@
 {
-    "name": "coolnodeapp",
-    "version": "1.0.0",
-    "description": "node app ",
-    "main": "app.js",
-    "scripts": {
+  "name": "coolnodeapp",
+  "version": "1.0.0",
+  "description": "node app ",
+  "main": "app.js",
+  "scripts": {
     "start": "node app.js"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": ""
   },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
+  "author": "",
+  "license": "ISC",
+  "bugs": {
     "url": ""
   },
-    "homepage": ""
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.18.1"
   }
+}
