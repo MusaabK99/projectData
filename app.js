@@ -1,6 +1,7 @@
 const express = require('express');
 var cors = require('cors')
 const data = require('./data.json');
+const port = process.env.PORT || 3000
 
 const app = express();
 app.use(cors())
@@ -17,6 +18,6 @@ app.get('/api/stops', (req, res) => {
 });
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('server started');
 })
