@@ -1,20 +1,22 @@
-const http = require('http');
-const port = process.env.PORT || 3000
+const express = require('express');
+var cors = require('cors')
 const data = require('./data.json');
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    res.end('<h1>Hello World</h1>');
+const app = express();
+app.use(cors())
+app.use(express.json());
+
+// GET /api/products
+app.get('/api/buses', (req, res) => {
+    res.json(data.buses);
 });
 
-//send data to the client
-server.on('request', (req, res) => {
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify(data));
+//get/api/stops
+app.get('/api/stops', (req, res) => {
+    res.json(data.stops);
 });
 
 
-server.listen(port, () => {
-    console.log(`Server running at port ` + port);
-});
+app.listen(3000, () => {
+    console.log('server started');
+})
