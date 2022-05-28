@@ -1,0 +1,147 @@
+{
+    "buses": [
+        {
+            "id": "1",
+            "name": "Bus 1",
+            "latitude": "1.0",
+            "longitude": "1.0",
+            "speed": "5", 
+            "timestamp": "1.0"
+        },
+        {
+            "id": "2",
+            "name": "Bus 2",
+            "latitude": "2.0",
+            "longitude": "2.0",
+            "speed": "5", 
+            "timestamp": "2.0"
+        },
+        {
+            "id": "3",
+            "name": "Bus 3",
+            "latitude": "3.0",
+            "longitude": "3.0",
+            "speed": "5", 
+            "timestamp": "3.0"
+        },
+        {
+            "id": "4",
+            "name": "Bus 4",
+            "latitude": "4.0",
+            "longitude": "4.0",
+            "speed": "5", 
+            "timestamp": "4.0"
+        },
+        {
+            "id": "5",
+            "name": "Bus 5",
+            "latitude": "5.0",
+            "longitude": "5.0",
+            "speed": "5", 
+            "timestamp": "5.0"
+        },
+        {
+            "id": "6",
+            "name": "Bus 6",
+            "latitude": "6.0",
+            "longitude": "6.0",
+            "speed": "5", 
+            "timestamp": "6.0"
+        },
+        {
+            "id": "7",
+            "name": "Bus 7",
+            "latitude": "7.0",
+            "longitude": "7.0",
+            "speed": "5", 
+            "timestamp": "7.0"
+        },
+        {
+            "id": "8",
+            "name": "Bus 8",
+            "latitude": "8.0",
+            "longitude": "8.0",
+            "speed": "5", 
+            "timestamp": "8.0"
+        },
+        {
+            "id": "9",
+            "name": "Bus 9",
+            "latitude": "9.0",
+            "longitude": "9.0",
+            "speed": "5", 
+            "timestamp": "9.0"
+        },
+        {
+            "id": "10",
+            "name": "Bus 10",
+            "latitude": "10.0",
+            "longitude": "10.0",
+            "speed": "5", 
+            "timestamp": "10.0"
+        }
+    ],
+    "stops":[
+        {
+            "id": "1",
+            "name": "Stop 1",
+            "latitude": "1.0",
+            "longitude": "1.0"
+        },
+        {
+            "id": "2",
+            "name": "Stop 2",
+            "latitude": "2.0",
+            "longitude": "2.0"
+        },
+        {
+            "id": "3",
+            "name": "Stop 3",
+            "latitude": "3.0",
+            "longitude": "3.0"
+        },
+        {
+            "id": "4",
+            "name": "Stop 4",
+            "latitude": "4.0",
+            "longitude": "4.0"
+        },
+        {
+            "id": "5",
+            "name": "Stop 5",
+            "latitude": "5.0",
+            "longitude": "5.0"
+        },
+        {
+            "id": "6",
+            "name": "Stop 6",
+            "latitude": "6.0",
+            "longitude": "6.0"
+        },
+        {
+            "id": "7",
+            "name": "Stop 7",
+            "latitude": "7.0",
+            "longitude": "7.0"
+        },
+        {
+            "id": "8",
+            "name": "Stop 8",
+            "latitude": "8.0",
+            "longitude": "8.0"
+        },
+        {
+            "id": "9",
+            "name": "Stop 9",
+            "latitude": "9.0",
+            "longitude": "9.0"
+        },
+        {
+            "id": "10",
+            "name": "Stop 10",
+            "latitude": "10.0",
+            "longitude": "10.0"
+        }
+    ]
+}
+
