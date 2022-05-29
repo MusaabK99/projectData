@@ -7,7 +7,8 @@
             "longitude": "36.22546",
             "timestamp": "1.0",
             "stops":[
-                "Bafra Minibüs Durakları"
+                "Bafra Minibüs Durakları",
+                "Kampüs Pension"
             ]
         },
         {
@@ -61,7 +62,8 @@
             "latitude": "41.37165",
             "longitude": "36.22566",
             "buses": [
-                "Bus 1"
+                "Bus 1",
+                "Bus 3"
             ]
         }
     ]
