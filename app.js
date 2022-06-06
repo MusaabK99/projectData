@@ -17,6 +17,14 @@ app.get('/api/stops', (req, res) => {
     res.json(data.stops);
 });
 
+// put / api / buses /distance
+app.put('/api/buses/distance'), (req, res) => {
+    const { busId, distance } = req.body;
+    const bus = data.buses.find(bus => bus.id === busId);
+    bus.distance = distance;
+    res.json(bus);
+}
+
 
 app.listen(port, () => {
     console.log('server started');
