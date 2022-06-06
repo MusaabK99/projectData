@@ -9,7 +9,8 @@
             "stops":[
                 "Bafra Minibüs Durakları",
                 "Kampüs Pension"
-            ]
+            ],
+            "distance": "0.0"
         },
         {
             "id": "2",
@@ -20,7 +21,8 @@
             "stops":[
                 "Düğün Salonu",
                 "Kampüs Pension"
-            ]
+            ],
+            "distance": "0.0"
         },
         {
             "id": "3",
@@ -31,7 +33,8 @@
             "stops":[
                 "Düğün Salonu",
                 "Kampüs Pension"
-            ]
+            ],
+            "distance": "0.0"
         }
     ],
     "stops":[
